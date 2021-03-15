@@ -1,23 +1,27 @@
 /*
 function divideTwo(number1,number2){
 
-  number1Squared = Math.pow(number1,2)
+  remainder = number1 % number2
+  return remainder
 
-  avgSquare = ((number1+number2+number3)/3)*number1Squared
+  }
+  
+function div(number1,number2){
 
-  return avgSquare
+  remainder = number1 / number2
+  remainder = Math.floor(remainder)
+  return remainder
 
   }
 
   
 
-let num1 = Number(prompt('Enter a number')) 
+num1 = Number(prompt('Enter a number')) 
 
-let num2 =  Number(prompt('Enter a number'))
+num2 =  Number(prompt('Enter a number'))
 
-let num3 =  Number(prompt('Enter a number')) 
+let answer = divideTwo(num1,num2)
+let a2 = div(num1,num2)
 
-let myAnswer = calcAvgSquare(num1,num2,num3)
-
-alert(`The answer is ${myAnswer}`)
+alert(`The result of deviding ${num1} by ${num2} is ${answer} with a remainder of ${a2}`)
 */
